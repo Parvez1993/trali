@@ -1,0 +1,62 @@
+.menu {
+  background: transparent;
+}
+
+.menu-items {
+  display: flex;
+  justify-content: center;
+  width: 65%;
+}
+
+.menu-items a {
+  display: inline-block;
+  margin: 0 35px !important;
+  font-family: "Hind", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  margin-top: 38px !important;
+}
+.menu-items a:hover {
+  background-color: transparent !important;
+  color: #05297f !important;
+  transition: 0.4s;
+}
+
+.logo {
+  margin-top: 20px;
+}
+
+.nav_icon {
+  margin-top: 50px;
+}
+
+.nav_icon .icon {
+  font-size: 25px !important;
+  margin-left: 30px;
+}
+
+.icon:hover {
+  color: #05297f !important;
+  transition: 0.4s;
+}
+
+.cart {
+  position: relative;
+}
+
+.round {
+  font-family: "Hind", sans-serif;
+  background: #05297f;
+  width: 17px;
+  height: 17px;
+  font-weight: 600;
+  font-size: 11px;
+  color: white;
+  border: 1px white solid;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 0px;
+  right: -6px;
+  line-height: 18px;
+  padding-left: 3px;
+}
